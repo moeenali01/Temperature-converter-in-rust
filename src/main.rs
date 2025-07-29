@@ -11,7 +11,7 @@ fn main(){
     let choise: u32 = match choise.trim().parse() {
         Ok(num) => num,
         Err(_) => {
-            println!("Invalid input, please enter 1 or 2.");
+            println!("Invalid input, please enter 1 or 2");
             return;
         }
     };
